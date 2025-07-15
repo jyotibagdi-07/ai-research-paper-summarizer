@@ -1,0 +1,93 @@
+/* 🌟 GLOBAL FONT + SMOOTH ANIMATION */
+html, body, [class*="st"] {
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+/* 🌟 HEADER GRADIENT TEXT */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #010e1a, #2fb4bb);
+    background-clip: text;            /* Standard */
+    -webkit-background-clip: text;    /* Chrome, Safari */
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-align: center;
+    color: #f8f8f8;
+    font-weight: 400;
+}
+
+/* 🌟 UPLOAD BOX with Glass Effect */
+.uploadedFile {
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px dashed rgba(255, 255, 255, 0.3);
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.uploadedFile:hover {
+    transform: scale(1.02);
+    border-color: #4facfe;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* 🌟 SUMMARY BOX */
+.summary-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 🌟 BUTTONS */
+.stButton > button {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 12px;
+    border: none;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.stButton > button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* 🌟 FOOTER */
+footer {
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    color: #eee;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+/* 🌟 HR Styling */
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    margin: 30px 0;
+}
