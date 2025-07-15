@@ -9,8 +9,8 @@ h1 {
     font-size: 3rem;
     font-weight: bold;
     background: linear-gradient(90deg, #010e1a, #2fb4bb);
-    background-clip: text;            /* Standard */
-    -webkit-background-clip: text;    /* Chrome, Safari */
+    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
     margin-bottom: 10px;
@@ -20,29 +20,12 @@ h3 {
     text-align: center;
     color: #f8f8f8;
     font-weight: 400;
-}
-
-/* 🌟 UPLOAD BOX with Glass Effect */
-.uploadedFile {
-    backdrop-filter: blur(12px);
-    background: rgba(255, 255, 255, 0.2);
-    border: 2px dashed rgba(255, 255, 255, 0.3);
-    border-radius: 18px;
-    padding: 25px;
-    text-align: center;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-    transition: 0.3s ease-in-out;
-}
-
-.uploadedFile:hover {
-    transform: scale(1.02);
-    border-color: #4facfe;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    margin-bottom: 10px;
 }
 
 /* 🌟 SUMMARY BOX */
 .summary-box {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 25px;
@@ -50,7 +33,7 @@ h3 {
     margin-top: 20px;
     font-size: 16px;
     line-height: 1.6;
-    color: white;
+    color: rgb(3, 0, 0);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -75,13 +58,14 @@ h3 {
 /* 🌟 FOOTER */
 footer {
     backdrop-filter: blur(10px);
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(216, 41, 41, 0.3); /* Soft red background */
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-    color: #eee;
+    color: #140202; /* Dark red text */
     margin-top: 40px;
     font-size: 14px;
+    font-weight: 600;
 }
 
 /* 🌟 HR Styling */
